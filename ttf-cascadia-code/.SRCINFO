@@ -1,0 +1,22 @@
+pkgbase = ttf-cascadia-code
+	pkgdesc = A monospaced font by Microsoft that includes programming ligatures
+	pkgver = 1911.21
+	pkgrel = 1
+	url = https://github.com/microsoft/cascadia-code
+	arch = any
+	license = custom:OFL
+	depends = fontconfig
+	depends = xorg-font-utils
+	source = cascadia-code-1911.21.tar.gz::https://github.com/microsoft/cascadia-code/archive/v1911.21.tar.gz
+	source = cascadia-code-1911.21-Cascadia.ttf::https://github.com/microsoft/cascadia-code/releases/download/v1911.21/Cascadia.ttf
+	source = cascadia-code-1911.21-CascadiaMono.ttf::https://github.com/microsoft/cascadia-code/releases/download/v1911.21/CascadiaMono.ttf
+	source = cascadia-code-1911.21-CascadiaMonoPL.ttf::https://github.com/microsoft/cascadia-code/releases/download/v1911.21/CascadiaMonoPL.ttf
+	source = cascadia-code-1911.21-CascadiaPL.ttf::https://github.com/microsoft/cascadia-code/releases/download/v1911.21/CascadiaPL.ttf
+	sha512sums = 8eea9fae5444e297cf1d5927f7e71f0d150a1970cd37dde9fffe58b47fe0b357470d0c327e6de42f5c66227d3e0b8260c0b6308b3284251c350a00badb81de48
+	sha512sums = 8e2b55eb589bedb03c18857f6852333469776a38705ba3722ffa9fe4a1a8e82cf52d74ce1bbe749d06179ed74136eb0f419b7467e92e935f35c0966928810349
+	sha512sums = 69b95ba8bf2c23a050e78e08acfcfa22b09efb20a6b8fe6ef1d9595484686095811f37ecc47c690a49278de2a0fec03bdc4ec3b37a49180381c87ad6abfc5f8d
+	sha512sums = cd638e171621844d9227d4612a5674c029aace29a52e85624e2c4ab719bf3911a74d721d852a18a4116eaedd2d952239630e3b4e5ec887e2a12d83e67e60b042
+	sha512sums = 9c171c0b98801f7a8236fd5e88f849c97de8d66c4357e3a27c0d5c2b0b64d459854283251c4478ff62062851423b1f84e0912a68be0eb9f02dc525af90251a5e
+
+pkgname = ttf-cascadia-code
+
